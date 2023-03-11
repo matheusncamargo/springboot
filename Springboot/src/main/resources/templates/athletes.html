@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Athlete List</title>
+</head>
+<body>
+    <h1>Athlete List</h1>
+
+    <form method="post" th:action="@{./federation}">
+        <input type="text" name="federation"/>
+        <button type="submit">Search by federation</button>
+    </form>
+    <form method="post" th:action="@{./modality}">
+        <input type="text" name="modality"/>
+        <button type="submit">Search by modality</button>
+    </form>
+    <form method="post" th:action="@{./name}">
+        <input type="text" name="name"/>
+        <button type="submit">Search by name</button>
+    </form>
+    <form method="post" th:action="@{./id}">
+        <input type="text" name="id"/>
+        <button type="submit">Search by Id</button>
+    </form>
+        <table>
+        <tr><th>Athlete ID</th><th>Name</th><th>Gender</th><th>Birth Date</th><th>Federation</th><th>Modality</th></tr>
+            <tr th:each="athlete : ${athletes}">
+                <td th:text="${athlete.id}"></td>
+                <td th:text="${athlete.name}"></td>
+                <td th:text="${athlete.gender}"></td>
+                <td th:text="${athlete.birthDate}"></td>
+                <td th:text="${athlete.federation}"></td>
+                <td th:text="${athlete.modality}"></td>
+                <td>
+       <form method="post" th:action="@{./delete={id}(id=${athlete.id})}">
+       <button type="submit">Delete</button>
+       </form>
+       </td>
+                <td>
+                    <form method="get" th:action="@{./athletes/{id}(id=${athlete.id})}">
+                        <button type="submit">Edit</button>
+                    </form>
+                </td>
+       </tr>
+        </table>
+        <button><a href="add-athlete">New athlete</a></button>
+    <button><a href="athletes">Return</a></button>
+        </body>
+        </html>

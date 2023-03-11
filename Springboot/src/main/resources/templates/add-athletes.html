@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Athlete</title>
+</head>
+<body>
+<h1> Add Athlete </h1>
+<form th:action="@{athletes}" method="post">
+  <input type="hidden" name="id" th:value="${athlete.id}"/>
+  <label>Name</label>
+  <label>
+    <input th:value="${athlete.name}" type="text" name="name"/>
+  </label></br>
+  <label>Gender</label>
+  <label>
+    <input th:value="${athlete.gender}" type="text" name="gender"/>
+  </label></br>
+  <label>Birth Date</label>
+  <label>
+    <input th:value="${athlete.birthDate}" type="text" name="birthDate"/>
+  </label></br>
+  <label>Federation</label>
+  <label>
+    <input th:value="${athlete.federation}" type="text" name="federation"/>
+  </label></br>
+  <label>Modality</label>
+  <label>
+    <input th:value="${athlete.modality}" type="text" name="modality"/>
+  </label></br>
+
+  <button type="submit">Save</button>
+
+</form>
+</body>
+</html>
+

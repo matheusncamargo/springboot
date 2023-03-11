@@ -1,0 +1,93 @@
+[
+{
+ 		"name": "Mario Bros.",
+ 		"gender": "M",
+ 		"birthDate": "1983-07-14",
+ 		"federation": "Italia",
+ 		"modality": "Encanador"
+ 	},
+ 	{
+ 		"name": "Roger Federer",
+ 		"gender": "M",
+ 		"birthDate": "1981-08-08",
+ 		"federation": "Suica",
+ 		"modality": "Tenis"
+ 	},
+ 	{
+ 		"name": "Michael Phelps",
+ 		"gender": "M",
+ 		"birthDate": "1985-06-30",
+ 		"federation": "EUA",
+ 		"modality": "Natacao"
+ 	},
+ 	{
+ 		"name": "Acelino Freitas",
+ 		"gender": "M",
+ 		"birthDate": "1975-09-21",
+ 		"federation": "Brasil",
+ 		"modality": "Boxe"
+ 	},
+ 	{
+ 		"name": "Maria Sharapova",
+ 		"gender": "F",
+ 		"birthDate": "1987-04-19",
+ 		"federation": "Russia",
+ 		"modality": "Tenis"
+ 	},
+ 	{
+ 		"name": "Neymar Junior",
+ 		"gender": "M",
+ 		"birthDate": "1992-02-05",
+ 		"federation": "Brasil",
+ 		"modality": "Futebol"
+ 	},
+ 	{
+ 		"name": "Usain Bolt",
+ 		"gender": "M",
+ 		"birthDate": "1986-08-21",
+ 		"federation": "Jamaica",
+ 		"modality": "Atletismo"
+ 	},
+ 	{
+    		"name": "Simone Biles",
+    		"gender": "F",
+    		"birthDate": "1997-03-14",
+    		"federation": "EUA",
+    		"modality": "Ginastica"
+    	},
+    	{
+    		"name": "Oscar Schmidt",
+    		"gender": "M",
+    		"birthDate": "1958-02-16",
+    		"federation": "Brasil",
+    		"modality": "Basquete"
+    	},
+    	{
+        		"name": "Lionel Messi",
+        		"gender": "M",
+        		"birthDate": "1987-06-24",
+        		"federation": "Argentina",
+        		"modality": "Futebol"
+        	},
+        	{
+        		"name": "Cristiano Ronaldo",
+        		"gender": "M",
+        		"birthDate": "1985-02-05",
+        		"federation": "Portugal",
+        		"modality": "Futebol"
+        	},
+        	{
+        		"name": "Rayssa Leal",
+        		"gender": "F",
+        		"birthDate": "2008-01-04",
+        		"federation": "Brasil",
+        		"modality": "Skate"
+        	},
+        	{
+        		"name": "Zou Kai",
+        		"gender": "M",
+        		"birthDate": "1988-02-25",
+        		"federation": "China",
+        		"modality": "Ginastica"
+        	}
+        ]
